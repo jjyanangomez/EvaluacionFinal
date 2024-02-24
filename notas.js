@@ -42,6 +42,7 @@ guardar = function(){
         promedio:resultPromedio
     }
     estudiantes.push(objStudent);
+    alert("Notas guardadas con éxito");
     limpiar();
     mostrarEstudiantes();
 }
