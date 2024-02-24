@@ -74,9 +74,9 @@ mostrarEstudiantes = function(){
     deshabilitarComponente("btnGuardar");
 }
 limpiar = function(){
-    mostrarTexto("txtNombre","");
-    mostrarTexto("txtApellido","");
-    mostrarTexto("txtNota1","");
-    mostrarTexto("txtNota2","");
-    mostrarTexto("txtNota3","");
+    mostrarTextoEnCaja("txtNombre","");
+    mostrarTextoEnCaja("txtApellido","");
+    mostrarTextoEnCaja("txtNota1","");
+    mostrarTextoEnCaja("txtNota2","");
+    mostrarTextoEnCaja("txtNota3","");
 }
